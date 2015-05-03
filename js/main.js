@@ -14,10 +14,13 @@ $( document ).ready(function() {
 	getArray();
 
 	$('#maincontent div:not(:first-child) p').hide();
+	$('#maincontent h3').append('<span class="expand"></span>');
 	jQuery(document.body).on('click','#maincontent div h3',function(e){
 		e.preventDefault();
 		jThis = $(this);
 		$('#maincontent p').hide();
+		$('#maincontent span').removeClass('contract').addClass('expand');
 		jThis.siblings().show();
+		jThis.find('span').removeClass('expand').addClass('contract');
   });
 });
