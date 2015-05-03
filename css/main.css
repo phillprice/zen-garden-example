@@ -1,3 +1,87 @@
-/*!
- * My CSS will go here later.
- * */
+/* general style */
+body {
+	background-color: #E2ECEE;
+  color: #383838;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-size: 13px;
+}
+.container {
+	background-color:#ffffff;
+	/* container max-width to match example */
+	max-width:768px;
+}
+#navigation li {
+  border-bottom: 1px solid #ECECEE;
+}
+.slide {
+  background-image: url("../Assets/images/background.jpg");
+  height: 195px;
+  background-position: 0 20px;
+  background-repeat: no-repeat;
+}
+.demonstration {
+    color: #fff;
+    padding: 10px;
+    width: 28%;
+}
+a {
+	color:#428AA0;
+	text-decoration:underline;
+}
+#footer {
+  background-image: url("../Assets/images/footer.gif");
+  background-repeat: no-repeat;
+	height: 28px;
+  padding: 5px 10px;
+  background-position: top right;
+}
+#footer a {
+	text-decoration: none;
+	color:white;
+}
+
+/* Heading Replacement */
+h1,h2,h3 {
+  text-indent: -9999px;
+  direction: ltr;
+}
+h1 {
+  width: 170px; 
+  height: 55px;
+  background: url("../Assets/images/logo.gif");
+}
+.the-road-to-enlightenment {
+  width: 196px; 
+  height: 23px;
+  background: url("../Assets/images/heading01.gif");
+}
+.so-what-is-this-all-about {
+  width: 167px; 
+  height: 23px;
+  background: url("../Assets/images/heading02.gif");
+}
+.participation {
+  width: 93px; 
+  height: 23px;
+  background: url("../Assets/images/heading03.gif");
+}
+.benefits {
+  width: 61px; 
+  height: 23px;
+  background: url("../Assets/images/heading04.gif");
+}
+.requirements {
+  width: 102px; 
+  height: 23px;
+  background: url("../Assets/images/heading05.gif");
+}
+#resources h3 {
+  width: 66px; 
+  height: 15px;
+  background: url("../Assets/images/resources.gif");
+}
+#archives h3 {
+  width: 54px; 
+  height: 15px;
+  background: url("../Assets/images/archives.gif");
+}
