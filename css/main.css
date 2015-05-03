@@ -52,27 +52,32 @@ h1 {
   height: 55px;
   background: url("../Assets/images/logo.gif");
 }
-.the-road-to-enlightenment {
+.the-road-to-enlightenment h3 a {
+	display:block;
   width: 196px; 
   height: 23px;
   background: url("../Assets/images/heading01.gif");
 }
-.so-what-is-this-all-about {
+.so-what-is-this-all-about h3 a {
+	display:block;
   width: 167px; 
   height: 23px;
   background: url("../Assets/images/heading02.gif");
 }
-.participation {
+.participation h3 a {
+	display:block;
   width: 93px; 
   height: 23px;
   background: url("../Assets/images/heading03.gif");
 }
-.benefits {
+.benefits h3 a {
+	display:block;
   width: 61px; 
   height: 23px;
   background: url("../Assets/images/heading04.gif");
 }
-.requirements {
+.requirements h3 a {
+	display:block;
   width: 102px; 
   height: 23px;
   background: url("../Assets/images/heading05.gif");

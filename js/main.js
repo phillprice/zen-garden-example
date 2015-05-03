@@ -12,4 +12,12 @@ $( document ).ready(function() {
     $('#links ul').append(links);
 	}
 	getArray();
+
+	$('#maincontent div:not(:first-child) p').hide();
+	jQuery(document.body).on('click','#maincontent div h3',function(e){
+		e.preventDefault();
+		jThis = $(this);
+		$('#maincontent p').hide();
+		jThis.siblings().show();
+  });
 });
