@@ -2,3 +2,48 @@
 .container{
 	max-width:768px;
 }
+/* Heading Replacement */
+h1,h2,h3{
+  text-indent: -9999px;
+  direction: ltr;
+}
+h1{
+  width: 170px; 
+  height: 55px;
+  background: url("../Assets/images/logo.gif");
+}
+.the-road-to-enlightenment {
+  width: 196px; 
+  height: 23px;
+  background: url("../Assets/images/heading01.gif");
+}
+.so-what-is-this-all-about {
+  width: 167px; 
+  height: 23px;
+  background: url("../Assets/images/heading02.gif");
+}
+.participation {
+  width: 93px; 
+  height: 23px;
+  background: url("../Assets/images/heading03.gif");
+}
+.benefits {
+  width: 61px; 
+  height: 23px;
+  background: url("../Assets/images/heading04.gif");
+}
+.requirements {
+  width: 102px; 
+  height: 23px;
+  background: url("../Assets/images/heading05.gif");
+}
+#resources h3 {
+  width: 66px; 
+  height: 15px;
+  background: url("../Assets/images/resources.gif");
+}
+#archives h3 {
+  width: 54px; 
+  height: 15px;
+  background: url("../Assets/images/archives.gif");
+}
