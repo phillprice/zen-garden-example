@@ -12,7 +12,5 @@
 - What about social media and sharing?
 
 # To Do
-- back to top link
-- accordion
 - mobile navigation
 - browser testing

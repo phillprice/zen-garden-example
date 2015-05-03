@@ -1,4 +1,5 @@
-/* general style */
+/* General style */
+
 body {
 	background-color: #E2ECEE;
   color: #383838;
@@ -14,6 +15,12 @@ a {
 	/* container max-width to match example */
 	max-width:768px;
 }
+.row{
+	margin:0;
+}
+
+/* Heading Section */
+
 .slide {
   background-image: url("../Assets/images/background.jpg");
   height: 195px;
@@ -25,22 +32,19 @@ a {
     padding: 10px;
     width: 28%;
 }
-#navigation li {
-  border-bottom: 1px solid #ECECEE;
+
+/* Main Content */
+
+#maincontent span{
+	background-image: url("../Assets/images/arrowSprite.gif");
+	display: block;   
+	float: right;   
+	width: 13px;   
+	height: 8px;   
+	margin-top: -15px;
 }
-#footer {
-  background-image: url("../Assets/images/footer.gif");
-  background-repeat: no-repeat;
-	height: 28px;
-  padding: 5px 10px;
-  background-position: top right;
-}
-#footer a {
-	text-decoration: none;
-	color:white;
-}
-#links span {
-  display: block;
+.expand{
+    background-position: 0 7px;
 }
 
 h1,h2,h3 {
@@ -52,31 +56,64 @@ h1 {
   height: 55px;
   background: url("../Assets/images/logo.gif");
 }
-.the-road-to-enlightenment {
+.the-road-to-enlightenment h3 a {
+	display:block;
   width: 196px; 
   height: 23px;
   background: url("../Assets/images/heading01.gif");
 }
-.so-what-is-this-all-about {
+.so-what-is-this-all-about h3 a {
+	display:block;
   width: 167px; 
   height: 23px;
   background: url("../Assets/images/heading02.gif");
 }
-.participation {
+.participation h3 a {
+	display:block;
   width: 93px; 
   height: 23px;
   background: url("../Assets/images/heading03.gif");
 }
-.benefits {
+.benefits h3 a {
+	display:block;
   width: 61px; 
   height: 23px;
   background: url("../Assets/images/heading04.gif");
 }
-.requirements {
+.requirements h3 a {
+	display:block;
   width: 102px; 
   height: 23px;
   background: url("../Assets/images/heading05.gif");
 }
+
+/* Footer */
+
+#footer {
+  background-image: url("../Assets/images/footer.gif");
+  background-repeat: no-repeat;
+	height: 28px;
+  padding: 5px 10px;
+  background-position: top right;
+}
+#footer a {
+	text-decoration: none;
+	color:white;
+}
+
+/* Navigation */
+
+#navigation {
+	padding-left: 0;
+	padding-right: 30px;
+}
+#navigation li {
+  border-bottom: 1px solid #ECECEE;
+}
+#links span {
+  display: block;
+}
+
 #resources h3 {
   width: 66px; 
   height: 15px;
