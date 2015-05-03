@@ -12,6 +12,5 @@
 - What about social media and sharing?
 
 # To Do
-- back to top link
 - mobile navigation
 - browser testing
