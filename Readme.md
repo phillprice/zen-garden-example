@@ -15,3 +15,4 @@
 - back to top link
 - accordion
 - mobile navigation
+- browser testing
