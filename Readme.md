@@ -27,6 +27,7 @@ Working Example: http://phillprice.com/zen-garden-example/
 - Why isn't it 100% everywhere? The brief was no browser hacks so IE8 footer background is not rounded on the left. I could have made it rounded corners in HTML but not without PIE.htc.
 - Why the column hack for the navigation? The width didn't match the image above.
 - Why is the h2 hidden? I felt it overkill to split the image at the top into two.
+- Why are the spans added in JS? The accordion is in JS so the expand / shrink buttons only affect JS users therefore they should only be there for JS.
 
 # Future Work Ideas
 - Gulp and grunt testing of work 
