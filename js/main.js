@@ -15,6 +15,7 @@ $( document ).ready(function() {
 
 	$('#maincontent div:not(:first-child) p').hide();
 	$('#maincontent h3').append('<span class="expand"></span>');
+	$('#maincontent h3:first span').removeClass('expand').addClass('contract');
 	jQuery(document.body).on('click','#maincontent div h3',function(e){
 		e.preventDefault();
 		jThis = $(this);
