@@ -1,3 +1,4 @@
-/*!
- * My CSS will go here later.
- * */
+/* container max-width to match example */
+.container{
+	max-width:768px;
+}
