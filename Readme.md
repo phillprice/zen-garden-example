@@ -12,7 +12,7 @@
 - What about social media and sharing?
 
 # To Do
-- json link inclusion
 - back to top link
 - accordion
 - mobile navigation
+- browser testing
