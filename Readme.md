@@ -20,6 +20,9 @@ Working Example: http://phillprice.com/zen-garden-example/
 - I'm not sure the site title should be an H1, perhaps the text in the heading image should be - but is it too long?
 - Needs Meta descriptions (and a robots.txt, sitemap etc)
 
+# Caveats
+- I used browserstack for responsive testing on Android, Windows Mobile and IE. It may differ to real world devices as I've had iOS problems there before.
+
 # My Decisions
 - Why Bootstrap? It's an easy grid to use and extensible for future work (although the standard look and feel is overused)
 - Why a function for loading json? So we can use it for other lists at a later date
