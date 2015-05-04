@@ -124,3 +124,11 @@ h1 {
   height: 15px;
   background: url("../Assets/images/archives.gif");
 }
+/* Tiny width fix for the tagline/navigation section - makes me want to split it out more into two areas */
+.col-xs-12 .demonstration {
+	width: 200px;
+}
+.col-xs-12#navigation{
+	padding-left:15px;
+	padding-right:15px;
+}
