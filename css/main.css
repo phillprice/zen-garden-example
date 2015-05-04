@@ -124,3 +124,7 @@ h1 {
   height: 15px;
   background: url("../Assets/images/archives.gif");
 }
+/* Tiny width fix for the tagline section - makes me want to split it out more into two areas */
+.col-xs-4.demonstration {
+	width: 50%;
+}
